@@ -1,3 +1,6 @@
+*{
+   background-color: rgb(247, 248, 227);
+}
 button{
    width: 5%;
     text-align: center center;
@@ -6,4 +9,18 @@ button{
    color: black;
    margin: 10px;
 border-radius: 30px;
+}
+p{
+   text-transform: capitalize;
+   text-align: center;
+   line-height: 25px;  
+   font-family:"cursive;"
+}
+a{
+   text-decoration: none;
+   font-weight:bold;
+}
+table{
+   text-transform: capitalize;
+   text-align: center;
 }

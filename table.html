@@ -166,6 +166,78 @@ table, th, td {
     }
   </style>
   <div id ="main.dum">this is a box </div>
+  <style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .container {
+    width: 800px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: auto 2px 1fr;
+  }
+  /* Header (1) */
+  .header {
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 10px;
+  }
+  /* Separator (2) */
+  .separator {
+    background-color: black;
+    height: 2px;
+  }
+  /* Main grid */
+  .main {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    border-top: 0;
+  }
+  /* Left box (4) */
+  .left {
+    border-right: 2px solid black;
+    padding: 10px;
+  }
+  /* Middle column (5, 6, 7) */
+  .middle {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-right: 2px solid black;
+  }
+  .middle div {
+    border-bottom: 2px solid black;
+    padding: 10px;
+  }
+  .middle div:last-child {
+    border-bottom: none;
+  }
+  /* Right box (8) */
+  .right {
+    padding: 10px;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">1</div>
+    <div class="separator"></div>
+    <div class="main">
+      <div class="left">4</div>
+      <div class="middle">
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+      </div>
+      <div class="right">8</div>
+    </div>
+  </div>
 </body>
 
 </html>
