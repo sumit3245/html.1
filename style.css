@@ -3,12 +3,13 @@
 }
 button{
    width: 5%;
-    text-align: center center;
+    text-align: center ;
    padding: /*this is top and bottom*/10px /*this is left and right*/ ;
    background-color:beige;
    color: black;
    margin: 10px;
 border-radius: 30px;
+width: 70px;
 }
 p{
    text-transform: capitalize;
