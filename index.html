@@ -9,21 +9,9 @@
 </head>
 <body> 
 <style>
-    table ,th , td {
-        border: 0px solid black; 
-        border-radius: 10px;
-        color: aliceblue;
+    *{
+        background-color: azure;
     }
-    table{
-        background-color: rgb(75, 74, 74);
-        }
-        th{
-            border: 1px solid rgb(250, 246, 246) ;
-            background-color: rgb(178, 178, 218);
-            color: rgb(20, 123, 212);
-            background-color:#4495dc;
-            text-decoration: color(srgb rgb(168, 122, 122) rgb(119, 150, 119) rgb(121, 121, 146));
-        }
         h2
         {
             width: 100px;
@@ -32,69 +20,37 @@
             text-align: center;
             border-radius: 50%;
             height: 5px;
-        }
-        a,button
-        {
-            text-align: center;
-
+        
         }
         .mainbox
             {
-            width: 100%;
-            height: 250px;
             background-color: black;
-            border-radius: 5px;
-            margin: 20px 0px 20px 0px;
-            display: flex inline;
-            align-items: center;
+            border-radius: 20px;
+            display: flex;
             background-image: url();
-            display: flex;
-            justify-content: end ;
+            color: azure;
+            justify-content: space-between;
+            border-radius: 20px;
         }
-        .box
+        .mainbox .box
         {
-            width: 130px;
-            height: 50px;
-            margin: -170px 10px 10px 10px;
-            color: rgb(32, 115, 189);
-            display:inline;
-            justify-content: end;
-            background-color: rgb(6, 136, 250);
-            border-radius: 40px;
-            text-align: center;
-            align-content: center;
-        }
-        .mainbox,.box1,.box a:hover{
-          cursor:move;
-        }
-        
-        .box1{
             width: 50%;
-            height: 100px;
-            background-color: rgb(10, 10, 10);
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
             border-radius: 20px;
-            margin: -100px 10px 40px 0px;
-            display: flex;
-            justify-content: center;
         }
-        .box2
+        .mainbox .box-2 {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            padding: 10px 30px 10px 0px ;
+            border-radius: 20px;
+        }
+        .mainbox .box-2 a
         {
-             width: 100px;
-            height: 100px;
-            margin: 5px 550px 0px 40px;
-            color: rgb(32, 115, 189);
             background-color: black;
-            display:flex;
-            justify-content: end;
-        }
-        img{
-            border-radius: 20px;
-        }
-        a{
-            background-color: rgb(6, 136, 250);
-            font-size: large; font: bold;
-            text-decoration: solid;
-            line-height: 5px;
+            margin: 0px 20px 20px 20px ;
+            color: rgb(3, 3, 3);
+            background-color: black;
         }
 </style>
 
@@ -109,17 +65,11 @@
 
 
 
-<div class="mainbox"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6BtyD_4RmpLHADGJW6i3bkNSL95LdewIShg&s" alt="" height="120px" width ="180px" style="margin: 10px 0px 10px 30px; border: 3px seashell; border-radius: 50%;">
-           <div class="box"><a href="./home.html">Home</a></div>
-                              <div class="box"><a href="./contacte.html">Contacte</a></div>
-                              <div class="box"><a href="./about.html">About</a></div>
-                              <div class="box"><a href="./placeses.html">Placeses</a></div>
-</div>
-
-
-
-
-
+<div class="mainbox"><div class="box"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6BtyD_4RmpLHADGJW6i3bkNSL95LdewIShg&s" alt="" height="120px" width ="180px" style="margin: 10px 0px 10px 30px; border: 3px seashell; border-radius: 50%;"></div>
+<div class="box-2"><a href="./home.html"><b>Home</b></a>
+                   <a href="./about.html"><b>About</b></a>
+                   <a href="./placeses.html"><b>Places</b></a>
+                   <a href="././contacte.html"><b>Contact</b></a></div></div>
 
 <marquee behavior="smooth" direction="left" scrollamount="15">
 <img src="https://s7ap1.scene7.com/is/image/incredibleindia/amber-fort-jaipur-rajasthan-1-attr-hero?qlt=82&ts=1742157903972" alt="mahel"  width="250pxs"height="200psx">
@@ -132,6 +82,7 @@
 <a href="./table.html"><button>extra</button></a><br> 
 <audio src=""></audio>
 <a href="./box.html"><button>Box</button></a> <br>
+<a href="./kkk.html">bor new project</a>
 <!--git add .
 git commit -m "first commit"
 git branch -M main
