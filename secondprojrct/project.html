@@ -23,75 +23,120 @@
             border: solid black 0px 0px 1px 0px;
             display: flex;
             justify-content:space-between;
-
-         }
-         .main-header img{
-            height: auto;
-            width: 80px;
-            border-radius: 50%;
-            margin: 10px 1px 5px 20px;
          }
          .box
          { 
             width : 30%;
             height: 200px;
             color:black;
-            background-image: none;
-            border: 1px solid black;
-            padding: 0px 5px;
             text-transform:capitalize;
             line-height: 20px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            background-image: none;
          }
          .box .boxx
         {
             width:fit-content;
-            border: black 1px solid;
+            background-image: none;
+            padding: 2px;
+            justify-content: center;
+            align-content: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .box .boxx1
+        {
+            width:fit-content;
+            background-image: none;
+            padding: 2px;
+            margin-left: 5px;
+            justify-content: center;
+            align-content: center;
+        }
+        .box .boxx1 h1 
+        {
+            font-family: monospace;
+            font-size: 30px;
+            margin : 0px 0px 10px 0px;
             background-image: none;
         }
-         .main-header .box img{
-            display: inline;
-         }
-         .main-header .box h1 
-         {
-            height: auto;
-            font-size: 35px;
-            font-weight: 400;
-            font-family: monospace;
+        .box .boxx1 p
+        {
+            margin: -5px 0px 20px 0px;
             background-image: none;
-            margin: 20px 0px 0px 0px;
-            padding: 5px;
-         }
-         .main-header .box p
-         {
-             margin: 0px 0px 10px 5px;
-             text-transform: capitalize;
-             font-family: monospace;
-             color: rgb(110, 109, 109);
-             display: inline-block;
-             
-         }
+        }
+
+        .box .boxx img
+        {
+           align-items: center;
+           height:100px;
+           width: 100px;
+           border-radius: 50%;
+        } 
          .main-header .box3
          {
             width: 1px;
          }
          .main-header .box2 
          {
-            width: 50%;
-            background-color: rgb(255, 255, 255);
+            width: 70%;
             background-image: none;
             display: flex;
             justify-content: end;
             justify-content: space-around;
             align-items: center;
          }
+         .main-header .box2 b
+         {
+            background-image: none;
+            font-size: 18px;
+            margin: 1px;
+
+         }
+         .main-header .box2 img
+         {
+            width: 30px;
+            border-radius: 50%;
+         }
+         .main-header .box2 p
+         {
+            font: 600;
+            font-size: 20px;
+            background-color: yellow;
+            border-radius :30px; 
+            background-image: none;
+            padding: 10px;
+            width: 150px;
+            text-align: center;
+            color: rgb(53, 52, 52);
+         }
+         .main-header .box2 p:hover
+         {
+            font: 600;
+            font-size: 20px;
+            background-color: rgb(33, 7, 180);
+            border-radius :30px; 
+            background-image: none;
+            padding: 10px;
+            width: 150px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+         }
+
          </style>
 
 <body>
     <div class="main-header"> 
-        <div class="box"><div class="boxx"><img src="https://img-new.cgtrader.com/items/4496317/ab3a9cb3e3/large/cleaning-staff-avatar-3d-icon-3d-model-ab3a9cb3e3.jpg" alt=""></div>
-            <h1>duster</h1>
+        <div class="box">
+            <div class="boxx">
+                <img src="https://img-new.cgtrader.com/items/4496317/ab3a9cb3e3/large/cleaning-staff-avatar-3d-icon-3d-model-ab3a9cb3e3.jpg" alt="">
+            </div>
+            <div class="boxx1">
+                <h1>duster</h1>
             <p>cleaning service</p>
-
+            </div>
         </div>
         <div class="box2">
             <b>Home </b>
@@ -99,6 +144,9 @@
             <b>Service</b>
             <b>Project</b>
             <b>Blog</b>
+            <b>Contact</b>
+            <img src="https://cdn.pixabay.com/photo/2021/07/02/04/48/search-6380865_640.png" alt="">
+            <p>Contact us</p>
         </div>
     </div>
 </body>
