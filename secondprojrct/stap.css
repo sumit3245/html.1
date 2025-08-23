@@ -1,0 +1,228 @@
+
+        *
+        { 
+            background-repeat: no-repeat;
+            background-size: 100% ;
+        }
+        /* main box has cover in there */
+            .main
+        {
+         height: auto;
+         width: auto;
+         border: 1px solid black;
+         background-image: none;
+         background-image: url(https://homepluscleaning.com/media/images/Cleaning-Companies-vs.-Independent-Cleaners-Why-a-Cleaning-Service-is-the-Better-Option-980x652.jpg);
+        }
+        /* heading of all home about and concated */
+         .main-header 
+         {
+            width: 100%;
+            height: 100px;
+            font-style: normal;
+            font-weight: 400;
+            font-family: monospace;
+            background-image: none;
+            border: 0.5px solid rgb(170, 169, 169);
+            display: flex;
+            justify-content:space-between;
+         }
+         .box
+         { 
+            width : 30%;
+            height: auto;
+            color:rgb(61, 60, 60);
+            text-transform:capitalize;
+            line-height: 20px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            background-image: none;
+         }
+         .box .boxx
+        {
+            width:fit-content;
+            background-image: none;
+            padding: 2px;
+            justify-content: center;
+            align-content: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .box .boxx1
+        {
+            width:fit-content;
+            background-image: none;
+            padding: 2px;
+            margin-left: 5px;
+            justify-content: center;
+            align-content: center;
+        }
+        .box .boxx1 h1 
+        {
+            font-family: monospace;
+            font-size: 30px;
+            margin : 0px 0px 10px 0px;
+            background-image: none;
+        }
+        .box .boxx1 p
+        {
+            margin: -5px 0px 20px 0px;
+            background-image: none;
+        }
+
+        .box .boxx img
+        {
+           align-items: center;
+           height:90px;
+           width: 90px;
+           border-radius: 50%;
+        } 
+         .main-header .box3
+         {
+            width: 1px;
+         }
+         .main-header .box2 
+         {
+            width: 60%;
+            background-image: none;
+            display: flex;
+            justify-content: end;
+            justify-content: space-around;
+            align-items: center;
+            padding-right: 50px;
+         }
+         .main-header .box2 b
+         {
+            background-image: none;
+            font-size: 18px;
+            margin: 10px;
+
+         }
+         .main-header .box2 img
+         {
+            width: 30px;
+            border-radius: 50%;
+         }
+         .main-header .box2 p
+         {
+            font: 600;
+            font-size: 20px;
+            background-color: yellow;
+            border-radius :30px; 
+            background-image: none;
+            padding: 10px;
+            width: 150px;
+            text-align: center;
+            color: rgb(53, 52, 52);
+            margin: 10px;
+         }
+         .main-header .box2 p:hover
+         {
+            font: 600;
+            font-size: 20px;
+            background-color: rgb(33, 7, 180);
+            border-radius :30px; 
+            background-image: none;
+            padding: 10px;
+            width: 150px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+         }
+         /* main head of end here */
+         /* secont one is start here 25%discount*/
+          .main-header-1
+         {
+            height: auto;
+            width: 50%;
+            overflow-wrap: break-word;
+            background-image: none;
+            margin: 70px 0px 0px 50px;
+            
+         }
+         .main-header-1 p
+         {
+            color: rgb(0, 0, 0);
+            background-image: none; 
+            background-color: rgb(7, 177, 126);
+            height: auto;
+            width: fit-content;
+            padding:5px 17px;
+            margin: 100px 0px 0px 55px  ;
+            border-radius: 3px;
+         }
+         .main-header-1 h1
+          {
+            font-size: 75px;
+            text-transform: capitalize;
+            color: rgb(72, 72, 187);
+            margin: 20px 0px 7px 50px ;
+            background-image: none; 
+         }
+         .main-header-1 .bex 
+         {
+            height: auto;
+            width: 75%;
+            color: rgb(7, 6, 6);
+            font-family: monospace;
+            overflow-wrap: break-word;
+            margin-left: 59px;
+         }
+         /*Samsa was a travelling salesman and above it there hung a picture that he had recently cut out of an*/
+         .main-header-1 .bex h3
+         {
+            color: rgb(41, 56, 1);
+            font-size: 17px;
+         }
+         .main-header-1 .bex-1
+         {
+            width: 70%;
+            height: auto;
+            display: flex;
+            margin: 30px 40px 40px 30px ;
+         }
+         .main-header-1 .bex-1 .bex-01
+         {
+            width:fit-content;
+            height:fit-content;
+            margin: 20px 0px 40px 40px;
+            border-radius: 30px;
+            padding: 13px 20px;
+            color: black;
+            background-color: yellow;
+            font-size: 18px;
+         }
+          .main-header-1 .bex-1 .bex-01:hover
+         {
+            width:fit-content;
+            height:fit-content;
+            margin: 20px 0px 40px 40px;
+            border-radius: 30px;
+            padding: 13px 20px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(16, 12, 218);
+            font-size: 18px;
+         }
+          .main-header-1 .bex-1 .bex-02
+         {
+            border: 2px solid rgb(18, 46, 206);
+            width:fit-content;
+            height:fit-content;
+            margin: 20px 40px 40px 40px;
+            border-radius: 30px;
+            padding: 10px 20px;
+            color: black;
+            background-color: rgb(255, 255, 255);
+            font-size: 18px;
+         }
+          .main-header-1 .bex-1 .bex-02:hover
+         {
+            border: 2px solid rgb(18, 46, 206);
+            width:fit-content;
+            height:fit-content;
+            margin: 20px 40px 40px 40px;
+            border-radius: 30px;
+             padding: 10px 20px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(48, 4, 245);
+            font-size: 18px;
+         }
