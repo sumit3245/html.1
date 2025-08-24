@@ -11,7 +11,7 @@
          width: auto;
          border: 1px solid black;
          background-image: none;
-         background-image: url(https://homepluscleaning.com/media/images/Cleaning-Companies-vs.-Independent-Cleaners-Why-a-Cleaning-Service-is-the-Better-Option-980x652.jpg);
+        /* background-image: url(https://homepluscleaning.com/media/images/Cleaning-Companies-vs.-Independent-Cleaners-Why-a-Cleaning-Service-is-the-Better-Option-980x652.jpg);*/
         }
         /* heading of all home about and concated */
          .main-header 
@@ -226,3 +226,159 @@
             background-color: rgb(48, 4, 245);
             font-size: 18px;
          }
+         /*end of more about us and the  get a service */
+         .main1
+         {
+            height: auto;
+            width: auto; 
+            border: 1px solid black;
+            text-align: center;
+            justify-content: center;
+            justify-items: center;
+         }
+         .main1-box1
+         {
+            height: auto;
+            width: fit-content;
+            justify-content: center;
+            text-align: center;
+            font-size: 16px;
+            justify-items: center;
+            margin-top: 110px;
+            color: rgb(71, 162, 236);
+            text-transform:uppercase;
+            font-weight: 600;
+            font-family:sans-serif;
+         }
+         .main1-box1 .box1-2
+         {
+            height: fit-content;
+            width: 60%;
+            font-size: 45px;
+            font-weight:  800;
+            color: rgb(28, 28, 99);
+            font-family: monospace;
+            text-transform:none;
+         }
+         .main1 .box2
+         {
+            height: auto;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 1px;
+         } 
+         .box2 .box2-0
+         {
+            height: 250px;
+            width: 20%;
+            border: 1px rgb(204, 234, 250) solid;
+            text-align: left ;
+            padding: 50px 50px 20px 20px ;
+            margin: 40px 7px 7px 7px ;
+            text-transform: capitalize;
+         }         
+         .box2 .box2-0 i
+         {
+            text-decoration: rgb(255, 255, 255);
+         }
+           .box2 .box2-0 h2
+           {
+            color: rgb(2, 17, 65);
+            font-weight: 500;
+            font-size: 23px;
+           }
+           .box2 .box2-0 p
+            {
+               color: rgb(85, 85, 85);
+           }
+           /*end of service*/
+           /*aero content start*/
+           .main1 .aero1-0
+           {
+            width: 100%;
+            height: auto;
+            justify-content: center;
+            display: flex;
+           }
+           .main1 .aero1-0 .aero1-2
+           {
+            width: fit-content;
+            height: fit-content;
+            border-radius: 50%;
+            border: rgb(228, 227, 227) 1px solid;
+            padding: 15px;
+            margin: 20px 8px;
+            border-color: aliceblue;
+           }
+           .main1 .aero1-0 .aero1-2:hover
+           {
+            width: fit-content;
+            height: fit-content;
+            border-radius: 50%;
+            border: rgb(255, 255, 255) 1px solid;
+            padding: 15px;
+            margin: 20px 8px;
+            background-color: rgb(109, 197, 248);
+           }
+           /*end of aero*/
+           .main2
+           {
+            width: 100%;
+            height: auto;
+            border:1px black solid;
+            display: flex;
+            justify-content: center;
+           }
+           .main2 .centent
+           {
+            width: 40%;
+            height: auto;
+            overflow-wrap: break-word;
+            padding: 20px;
+           }
+           .main2 .centent .tick
+           {
+            width: fit-content;
+            height: fit-content;
+            margin: 40px 0px;
+           }
+           .main2 .centent h2
+           {
+            font-weight: 600;
+            font-family:sans-serif;
+            text-transform: uppercase;
+            margin-bottom: 0px;
+            color: rgb(51, 102, 245);
+            font-size: 18px;
+           }
+           .main2 .centent h1 
+           {
+            margin: 0px 0px 50px 0px;
+            font-size: 50px;
+            line-height: 50px;
+            color:rgb(3, 52, 112)
+           }
+           .main2 .centent ,p
+            {
+               font-size: 18px;
+               font-family: 'Times New Roman', Times, serif;
+               font-weight: 100;
+               color: rgb(70, 69, 69);
+
+           }
+           .main2 .centent i
+           {
+            color: black;
+            margin-right: 10px;
+           }
+           .main2 .centent, h3 ,b
+           {
+            color: rgb(32, 44, 116);
+            font-weight: 500;
+           }
+            .main2 .foto
+           {
+            width: 40%;
+            height: auto;
+           }
